@@ -1,0 +1,14 @@
+{
+"resources":
+	[
+		{"name":"loading_bg","type":"image","url":"assets/loading/loading_bg.png"},
+		{"name":"logo","type":"image","url":"assets/loading/logo.png"},
+		{"name":"loading_tiao","type":"image","url":"assets/loading/loading_tiao.png"},
+		{"name":"loading_txt","type":"image","url":"assets/loading/loading_txt.png"}
+	],
+
+"groups":
+	[
+        {"name":"loading_main","keys":"logo,loading_bg,loading_tiao,loading_txt"}
+	]
+}

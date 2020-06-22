@@ -1,0 +1,14 @@
+{
+"resources":
+	[
+        {"name":"easygame_config","type":"json","url":"easygame_config.json"},
+        {"name":"sound_bg","type":"sound","soundType":"music","url":"assets/sound/bg.mp3"},
+        {"name":"sound_button","type":"sound","soundType":"effect","url":"assets/sound/button.mp3"}
+	],
+
+"groups":
+	[
+        {"name":"sound","keys":"sound_bg,sound_button"},
+        {"name":"group_easygame_config","keys":"easygame_config"}
+	]
+}

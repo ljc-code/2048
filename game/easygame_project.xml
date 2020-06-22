@@ -1,0 +1,53 @@
+<projects>
+  <name>game</name>
+  <code_dir>E:\items\2018\ceshi\2048\game</code_dir>
+  <project_dir>E:\items\2018\ceshi\2048\game\easy_game\easy_ui</project_dir>
+  <easygame_dir>E:\items\2018\ceshi\2048\game\easy_game</easygame_dir>
+  <assets_dir>E:\items\2018\ceshi\2048\game\easy_game\easy_assets</assets_dir>
+  <code_module>game2048</code_module>
+  <compress_enable>true</compress_enable>
+  <compress_param></compress_param>
+  <framerate>60</framerate>
+  <data_gen_excel_dir>E:\items\2018\ceshi\2048\game\easy_game\easy_data</data_gen_excel_dir>
+  <data_gen_excel_setting>E:\items\2018\ceshi\2048\game\easy_game\easy_data\setting.xlsx</data_gen_excel_setting>
+  <data_gen_protocol_xml_dir>E:\items\2018\ceshi\2048\game\easy_game\easy_protocol</data_gen_protocol_xml_dir>
+  <data_gen_go_src_dir></data_gen_go_src_dir>
+  <data_gen_go_project_name></data_gen_go_project_name>
+  <data_gen_go_client_header>network.RequestHeader</data_gen_go_client_header>
+  <data_gen_go_server_header>network.ResultHeader</data_gen_go_server_header>
+  <data_gen_server_json_data_dir></data_gen_server_json_data_dir>
+  <publish_java_home></publish_java_home>
+  <publish_ant_home></publish_ant_home>
+  <publish_app_icon></publish_app_icon>
+  <publish_app_title></publish_app_title>
+  <publish_app_version_code>1</publish_app_version_code>
+  <publish_app_version_name>0.0.1</publish_app_version_name>
+  <publish_app_portrait>true</publish_app_portrait>
+  <publish_app_project_copy></publish_app_project_copy>
+  <publish_android_support></publish_android_support>
+  <publish_android_sdk></publish_android_sdk>
+  <publish_android_keystore></publish_android_keystore>
+  <publish_android_keystore_pwd></publish_android_keystore_pwd>
+  <publish_android_keystore_alias></publish_android_keystore_alias>
+  <publish_android_keystore_alias_pwd></publish_android_keystore_alias_pwd>
+  <guide_sence_width>600</guide_sence_width>
+  <guide_sence_height>800</guide_sence_height>
+  <is_res_random>true</is_res_random>
+  <rootDirRes>null</rootDirRes>
+  <publish_android_pkt_selected>org.egret.java.game2048</publish_android_pkt_selected>
+  <publish_android_pkt_datas>org.egret.java.game2048</publish_android_pkt_datas>
+  <resources>
+    <res id="pic1" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pic1.jpg</res>
+    <res id="pic2" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pic2.jpg</res>
+    <res id="pic3" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pic3.jpg</res>
+    <res id="pic4" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pic4.jpg</res>
+    <res id="pic5" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pic5.jpg</res>
+    <res id="pic6" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pic6.jpg</res>
+    <res id="pictu1" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pictu1.jpg</res>
+    <res id="pictu2" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pictu2.jpg</res>
+    <res id="pictu3" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pictu3.jpg</res>
+    <res id="pictu4" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pictu4.jpg</res>
+    <res id="pictu5" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pictu5.jpg</res>
+    <res id="pictu6" merge="true">E:\items\2018\UI\ceshiUI\lianNum\pictu6.jpg</res>
+  </resources>
+</projects>

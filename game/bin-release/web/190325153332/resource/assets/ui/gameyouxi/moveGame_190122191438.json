@@ -1,0 +1,6 @@
+{"texture":
+    {
+        "btn_replay":{"x":0, "y":0, "w":243, "h":63}
+    },
+    "group":"moveGame"
+}

@@ -1,0 +1,9 @@
+{
+"resources":[
+    {"name":"moveGame_img","type":"image","url":"assets/ui/gameyouxi/moveGame_190122191438.png"},
+    {"name":"moveGame_json","type":"json","url":"assets/ui/gameyouxi/moveGame_190122191438.json"}
+],
+"groups":[
+    {"name":"gameyouxi_moveGame","keys":"moveGame_img,moveGame_json"}
+]
+}

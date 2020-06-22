@@ -1,0 +1,9 @@
+{
+"resources":[
+    {"name":"game2048_common_img","type":"image","url":"assets/ui/game2048/game2048_190111185910.png"},
+    {"name":"game2048_common_json","type":"json","url":"assets/ui/game2048/game2048_190111185910.json"}
+],
+"groups":[
+    {"name":"game2048_common_group","keys":"game2048_common_img,game2048_common_json"}
+]
+}

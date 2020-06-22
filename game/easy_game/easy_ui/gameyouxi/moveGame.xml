@@ -1,0 +1,379 @@
+<ui>
+  <window name="moveGame" desc="" ui="view" type="com.easyegret.ui.Group" template="false">
+    <property name="bgColor" value="0xccccff" type="int16"/>
+    <property name="border" value="false" type="boolean"/>
+    <property name="width" value="640" type="number"/>
+    <property name="height" value="1136" type="number"/>
+    <window name="group_big" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="bgColor" value="0x66ffff" type="int16"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="y" value="248" type="number"/>
+      <property name="width" value="640" type="number"/>
+      <property name="height" value="640" type="number"/>
+    </window>
+    <window name="groupAll" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="showBg" value="false" type="boolean"/>
+      <property name="bgColor" value="0x66ffff" type="int16"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="x" value="20" type="number"/>
+      <property name="y" value="268" type="number"/>
+      <property name="width" value="600" type="number"/>
+      <property name="height" value="600" type="number"/>
+      <window name="group1" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group2" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="155" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group3" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="310" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group4" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="465" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group5" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="y" value="155" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group6" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="155" type="number"/>
+        <property name="y" value="155" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group7" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="310" type="number"/>
+        <property name="y" value="155" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group8" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="465" type="number"/>
+        <property name="y" value="155" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group9" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="y" value="310" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group10" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="155" type="number"/>
+        <property name="y" value="310" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group11" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="310" type="number"/>
+        <property name="y" value="310" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group12" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="465" type="number"/>
+        <property name="y" value="310" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group13" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="y" value="465" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group14" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="155" type="number"/>
+        <property name="y" value="465" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group15" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="310" type="number"/>
+        <property name="y" value="465" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="group16" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="border" value="false" type="boolean"/>
+        <property name="x" value="465" type="number"/>
+        <property name="y" value="465" type="number"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+      </window>
+      <window name="label1" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label2" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="155" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label3" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="310" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label4" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="465" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label5" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="y" value="155" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label6" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="155" type="number"/>
+        <property name="y" value="155" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label7" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="310" type="number"/>
+        <property name="y" value="155" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label8" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="465" type="number"/>
+        <property name="y" value="155" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label9" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="y" value="310" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label10" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="155" type="number"/>
+        <property name="y" value="310" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label11" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="310" type="number"/>
+        <property name="y" value="310" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label12" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="465" type="number"/>
+        <property name="y" value="310" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label13" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="y" value="465" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label14" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="155" type="number"/>
+        <property name="y" value="465" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label15" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="310" type="number"/>
+        <property name="y" value="465" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+      <window name="label16" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="2" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xffffff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="135" type="number"/>
+        <property name="height" value="135" type="number"/>
+        <property name="x" value="465" type="number"/>
+        <property name="y" value="465" type="number"/>
+        <property name="bgColor" value="0xcc9999" type="int16"/>
+      </window>
+    </window>
+    <window name="group_Mask" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="showBg" value="false" type="boolean"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="width" value="640" type="number"/>
+      <property name="height" value="1136" type="number"/>
+      <window name="group" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="bgColor" value="0x0" type="int16"/>
+        <property name="border" value="false" type="boolean"/>
+        <property name="width" value="640" type="number"/>
+        <property name="height" value="1136" type="number"/>
+        <property name="alpha" value="0.296875" type="number"/>
+      </window>
+      <window name="labelGameOver" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="Game  Over" type="string"/>
+        <property name="fontSize" value="100" type="int"/>
+        <property name="color" value="0xff" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="640" type="number"/>
+        <property name="height" value="100" type="number"/>
+        <property name="y" value="518" type="number"/>
+        <property name="showBg" value="false" type="boolean"/>
+      </window>
+    </window>
+    <window name="groupSlide" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="border" value="false" type="boolean"/>
+      <property name="width" value="640" type="number"/>
+      <property name="height" value="1136" type="number"/>
+      <property name="alpha" value="0" type="number"/>
+    </window>
+    <window name="btnAgain" desc="" type="com.easyegret.ui.Button" template="false">
+      <property name="texture" value="E:\items\2018\UI\303_西瓜联盟打7\切图\btn_replay.png" type="bitmapdata"/>
+      <property name="width" value="243" type="number"/>
+      <property name="height" value="63" type="number"/>
+      <property name="x" value="198.5" type="number"/>
+      <property name="y" value="973" type="number"/>
+    </window>
+    <window name="groupGrade" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="showBg" value="false" type="boolean"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="x" value="195" type="number"/>
+      <property name="y" value="70" type="number"/>
+      <property name="width" value="350" type="number"/>
+      <window name="labelGrade" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="分数：" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xcc0000" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="150" type="number"/>
+        <property name="height" value="80" type="number"/>
+        <property name="x" value="40" type="number"/>
+        <property name="showBg" value="false" type="boolean"/>
+      </window>
+      <window name="labelGrade2" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="0" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0xcc0000" type="int16"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="200" type="number"/>
+        <property name="height" value="80" type="number"/>
+        <property name="x" value="175" type="number"/>
+        <property name="y" value="3" type="number"/>
+        <property name="showBg" value="false" type="boolean"/>
+      </window>
+    </window>
+  </window>
+  <resources/>
+</ui>

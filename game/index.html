@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>game</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.js" src-release="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/org/easygame/ui/BaseGroup.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/Group.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/LoadingBaseUI.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/ReceiveGroup.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/effect/BaseEffect.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/View.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/Win.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/DefaultLoadingView.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/core/GlobalSetting.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/animate/BaseAnimate.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/control/ActorCtrl.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/display/Actor.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/HGroup.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/Template.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/animate/SequenceQueue.js"></script>
+	<script egret="game" src="bin-debug/game2048/view/gameyouxi/game3View.js"></script>
+	<script egret="game" src="bin-debug/game2048/view/gameyouxi/moveGame.js"></script>
+	<script egret="game" src="bin-debug/game2048/view/gameyouxi/moveGameView.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/animate/AnimateData.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/animate/AnimateManager.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/effect/IEffect.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/effect/RollerDown.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/animate/AnimateTexture.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/core/HeartBeat.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/core/ObjectPool.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/core/Version.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/effect/EffectData.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/effect/EffectUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/effect/TweenEffect.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/event/EventManager.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/event/EventType.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/event/MoreTouch.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/event/MyEvent.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/framework/EasyGame.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/framework/PopupManager.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/framework/ResManager.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/framework/ViewManager.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/framework/msghandle/BaseHandle.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/framework/msghandle/IHandle.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/framework/msghandle/MessageControler.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/guide/GuideChapter.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/guide/GuideExecuteManager.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/guide/GuideItem.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/guide/GuideManager.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/DirectionUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/RpgSetting.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/animate/AnimateManager.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/DebugWin.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/animate/EffectAnimate.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/animate/HitAnimate.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/animate/ParalleQueue.js"></script>
+	<script egret="game" src="bin-debug/game2048/view/gameyouxi/diamondView.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/astar/AStar.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/astar/BinaryHeap.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/astar/Grid.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/astar/Link.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/astar/Node.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/DefaultGuideWin.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/control/NpcCtrl.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/control/PlayerCtrl.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/data/ActorData.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/data/GameData.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/data/IActorData.js"></script>
+	<script egret="game" src="bin-debug/game2048/view/gameyouxi/diamond.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/display/Camera.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/display/Map.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/display/Npc.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/display/Player.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/display/Scene.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/DefaultRenderer.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/Button.js"></script>
+	<script egret="game" src="bin-debug/game2048/view/gameyouxi/game3.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/component/MessageTips.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/Image.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/Label.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/LabelImage.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/List.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/ListAd.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/MovieClip.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/ScrollGroup.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/Style.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/TextArea.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/TextInput.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/ui/Video.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/DateUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/Debug.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/HexUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/HitTestUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/HttpUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/LocalStorage.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/MD5.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/MathUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/ObjectUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/ParabolaUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/ProgressCalculate.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/ShakeUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/Sound.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/SpriteUtils.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/StringUtil.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/utils/UUID.js"></script>
+	<script egret="game" src="bin-debug/game2048/template/gameyouxi/tempLateTemplate.js"></script>
+	<script egret="game" src="bin-debug/game2048/template/gameyouxi/tempLate.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/org/easygame/rpg/animate/IAnimate.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1136"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * }
+         **/
+        egret.runEgret({renderMode:"webgl", audioType:0});
+    </script>
+</body>
+</html>

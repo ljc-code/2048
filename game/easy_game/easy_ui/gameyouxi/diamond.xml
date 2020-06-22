@@ -1,0 +1,68 @@
+<ui>
+  <window name="diamond" desc="" ui="view" type="com.easyegret.ui.Group" template="false">
+    <property name="border" value="false" type="boolean"/>
+    <property name="width" value="640" type="number"/>
+    <property name="height" value="1136" type="number"/>
+    <window name="groupProgress" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="bgColor" value="0xff6633" type="int16"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="x" value="170" type="number"/>
+      <property name="y" value="111" type="number"/>
+      <property name="width" value="300" type="number"/>
+      <property name="height" value="20" type="number"/>
+    </window>
+    <window name="groupMask" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="border" value="false" type="boolean"/>
+      <property name="x" value="471" type="number"/>
+      <property name="y" value="112" type="number"/>
+      <property name="width" value="299" type="number"/>
+      <property name="height" value="18" type="number"/>
+    </window>
+    <window name="groupRightMask" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="bgColor" value="0xff6633" type="int16"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="x" value="470" type="number"/>
+      <property name="y" value="111" type="number"/>
+      <property name="width" value="1" type="number"/>
+      <property name="height" value="20" type="number"/>
+    </window>
+    <window name="groupAll" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="bgColor" value="0x3399ff" type="int16"/>
+      <property name="clip" value="true" type="boolean"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="x" value="0.5" type="number"/>
+      <property name="y" value="243.5" type="number"/>
+      <property name="width" value="639" type="number"/>
+      <property name="height" value="649" type="number"/>
+    </window>
+    <window name="group" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="showBg" value="false" type="boolean"/>
+      <property name="bgColor" value="0x0" type="int16"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="x" value="0.5" type="number"/>
+      <property name="y" value="243.5" type="number"/>
+      <property name="width" value="639" type="number"/>
+      <property name="height" value="649" type="number"/>
+      <window name="groupMk" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="bgColor" value="0x0" type="int16"/>
+        <property name="border" value="false" type="boolean"/>
+        <property name="width" value="639" type="number"/>
+        <property name="height" value="649" type="number"/>
+        <property name="alpha" value="0.5" type="number"/>
+      </window>
+      <window name="labelGameOver" desc="" type="com.easyegret.ui.Label" template="false">
+        <property name="text" value="Game Over" type="string"/>
+        <property name="fontSize" value="50" type="int"/>
+        <property name="color" value="0x9900" type="int16"/>
+        <property name="hAlign" value="center" type="array_string"/>
+        <property name="autoSize" value="false" type="boolean"/>
+        <property name="width" value="300" type="number"/>
+        <property name="height" value="58" type="number"/>
+        <property name="x" value="169.5" type="number"/>
+        <property name="y" value="290.5" type="number"/>
+        <property name="showBg" value="false" type="boolean"/>
+      </window>
+    </window>
+  </window>
+  <resources/>
+</ui>
